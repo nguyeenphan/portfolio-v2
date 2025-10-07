@@ -1,0 +1,167 @@
+#lilnoun {
+  background-size: 48px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50px;
+  /* fallback: use profile.png to avoid 404 */
+  background-image: url("../images/profile.png");
+}
+
+/* .eyes {
+    position: relative;
+    top: 22px;
+    left: 13.5px;
+    display: flex;
+    clip-path: inset(0px 0px 0px 0px);
+  }
+
+  .eyes .left-eyelid {
+    z-index: 3;
+    bottom: 9.5px;
+    width: 9px;
+    height: 9.5px;
+    display: block;
+    background: #FFF671;
+    position: relative;
+    animation: Blink ease-in-out infinite;
+    animation-duration: 10s;
+    animation-delay: 2s;
+  }
+
+  .eyes .left-eye {
+    position: absolute;
+    width: 9px;
+    height: 9.5px;
+    display: block;
+    background: #FFFFFF;
+    margin: 0 0px;
+    z-index: 1;
+    clip-path: inset(0px 0px 0px 0px);
+  }
+
+  .left-eye .left-pupil {
+    position: relative;
+    width: 5px;
+    height: 10px;
+    display: block;
+    background: #2b2b2b;
+    margin: 0 2px;
+    z-index: 2;
+  }
+
+.eyes .right-eyelid {
+    z-index: 3;
+    bottom: 9.5px;
+    width: 9px;
+    left: 4.5px;
+    height: 9.5px;
+    display: block;
+    background: #FFF671;
+    position: relative;
+    animation: Blink ease-in-out infinite;
+    animation-duration: 10s;
+    animation-delay: 2s;
+  }
+
+
+  .eyes .right-eye {
+    position: absolute;
+    width: 9px;
+    height: 9.5px;
+    margin: 0 0px;
+    left: 13.5px;
+    display: block;
+    background: #FFFFFF;
+    z-index: 1;
+    clip-path: inset(0px 0px 0px 0px);
+  }
+
+  .right-pupil {
+    position: relative;
+    width: 5px;
+    height: 10px;
+    display: block;
+    background: #2b2b2b;
+    margin: 0 2px;
+    z-index: 2;
+  } */
+
+@keyframes Blink {
+  0% {
+    bottom: 16px;
+  }
+  2.5% {
+    bottom: 0px;
+  }
+  5% {
+    bottom: 16px;
+  }
+  100% {
+    bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #lilnoun {
+    background-size: 48px;
+    margin-top: 0px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .eyes {
+    top: 22px;
+    left: 13.5px;
+  }
+
+  .eyes .left-eyelid {
+    bottom: 9.5px;
+    width: 9px;
+    height: 9.5px;
+  }
+
+  .eyes .left-eye {
+    width: 9px;
+    height: 9.5px;
+  }
+
+  .left-eye .left-pupil {
+    width: 5px;
+    height: 9.5px;
+  }
+
+  .eyes .right-eyelid {
+    bottom: 9.5px;
+    width: 9px;
+    left: 4.5px;
+    height: 9.5px;
+  }
+
+  .eyes .right-eye {
+    width: 9px;
+    height: 9.5px;
+    margin: 0 0px;
+    left: 13.5px;
+  }
+
+  .right-pupil {
+    width: 5px;
+    height: 9.5px;
+  }
+
+  @keyframes Blink {
+    0% {
+      bottom: 9px;
+    }
+    2.5% {
+      bottom: 0px;
+    }
+    5% {
+      bottom: 9px;
+    }
+    100% {
+      bottom: 9px;
+    }
+  }
+}
