@@ -166,6 +166,13 @@ a.loobot:hover {
   color: transparent;
 }
 
+a.geekup:hover {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(120deg, #2f926e, #36815b, #eadf09, #d1bd41);
+  color: transparent;
+}
+
 a.loobot::selection {
   -webkit-background-clip: text;
   background-clip: text;
