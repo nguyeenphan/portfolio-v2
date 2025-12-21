@@ -4,8 +4,8 @@
   height: 48px;
   position: relative;
   border-radius: 50px;
-  /* fallback: use profile.png to avoid 404 */
-  background-image: url("../images/profile.png");
+  /* fallback: use me.png to avoid 404 */
+  background-image: url("../images/me.png");
 }
 
 /* .eyes {
